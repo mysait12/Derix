@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "mymod",
+  "version": "1.0.0",
+  "name": "My First Mod",
+  "entrypoints": {
+    "client": [
+      "com.mymod.MainMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4"
+  }
+}
